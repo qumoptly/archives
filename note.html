@@ -38,7 +38,7 @@
 		<div class="htmleaf-container">
 			<input type="text" id="pdfid" placeholder="输入 ID（41573、41586）"  onkeypress="getid(this.value)"/> 
 			<div class="glowing disco box" style="box-shadow:inset 0 0 4px #ccc;text-align:center">
-				<iframe id="pdf" src="https://qumoptly.gitee.io/pdfjs/es5/web/viewer.html?file=https://qumoptly.gitee.io/archives/sources/41586.pdf " align="center" width="85%" height="720px" frameborder="0"><p>Your browser does not support iframes.</p></iframe><br><br>
+				<iframe id="pdf" src="https://qumoptly.gitee.io/pdfjs/es5/web/viewer.html?file=https://qumoptly.gitee.io/archives/sources/41586.pdf " align="center" width="90%" height="80%" frameborder="0"><p>Your browser does not support iframes.</p></iframe><br><br>
 				<span><a class="glowing cyan and zooming" style="color: rgb(155, 58, 101);" > ©2020 qumoptly </a> 
 				</span><br><br>
 			</div>
@@ -55,7 +55,7 @@
 		console.log(pdf.pdfdata[t]);
 		addsrc(pdf.pdfdata[t].id);
 		document.getElementById("title").innerHTML = pdf.pdfdata[t].title ;
-		if((t+1) >= pdf.pdfdata.length ){t--;}
+		if((t+1) >= pdf.pdfdata.length ){t = 0;}
 		else t++;
 	}
 	function getid(str)
@@ -71,7 +71,7 @@
 	}
 	</script>
 
-  <!-- live2d -->
+  <!-- live2d 
   <script src="./css/L2Dwidget.min.js"></script>
   <script type="text/javascript">
 	L2Dwidget
@@ -91,6 +91,6 @@
 		'tap face': '人家已经不是小孩子了！'
 		}}
 		});
-  </script>
+  </script> -->
 </body>
 </html>
