@@ -1,0 +1,10 @@
+var json={
+  "pdf1":{
+    "title":"The quest to slow ageing through drug discovery",
+    "id":"41573"
+    },
+  "pdfdata":[
+    {"title":"The quest to slow ageing through drug discovery","id":"41573"},
+    {"title":"Can lab-grown brains become conscious?","id":"41586"}
+  ]
+}
