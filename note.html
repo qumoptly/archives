@@ -37,7 +37,7 @@
 	</div>
 	<div class="texte_catalogue" align="center" style="color:#ccc;" >
 		<div class="htmleaf-container">
-			<input type="text" id="pdfid" placeholder="输入 ID（41573、41586）"  onkeypress="getid(this.value)"/> 
+			<input type="text" id="pdfid" placeholder="输入ID"  onkeypress="getid(this.value)"/> <a id="inputmsg" style="color:#333333; font-size:15px;" ></a>
 			<div class="glowing disco box" style="box-shadow:inset 0 0 4px #ccc;text-align:center">
 				<iframe id="pdf" src="https://qumoptly.gitee.io/pdfjs/es5/web/viewer.html?file=https://qumoptly.gitee.io/archives/sources/41586.pdf " align="center" width="90%" height="80%" frameborder="0"><p>Your browser does not support iframes.</p></iframe><br><br>
 				<span><br><a class="glowing purple and zooming" style="color: rgb(155, 58, 101);" > ©2020 qumoptly </a> 
@@ -56,14 +56,27 @@
 		console.log(pdf.pdfdata[t]);
 		addsrc(pdf.pdfdata[t].id);
 		document.getElementById("title").innerHTML = pdf.pdfdata[t].title ;
-		if((t+1) >= pdf.pdfdata.length ){t = 0;}
+		if ((t+1) >= pdf.pdfdata.length ){t = 0;}
 		else t++;
 	}
 	function getid(str)
 	{
 		if (event.keyCode == 13)
 		{
-		 addsrc(str);
+			var pdf = eval(json);
+			if (t < pdf.pdfdata.length ){
+				if (str == pdf.pdfdata[t].id){
+					console.log(pdf.pdfdata[t].id);
+					addsrc(pdf.pdfdata[t].id);
+				}
+				else {
+					t++;
+					if(t >= pdf.pdfdata.length){t = 0;}
+					document.getElementById("inputmsg").innerHTML = "ID: "+pdf.pdfdata[t].id ;
+					console.log(pdf.pdfdata[t].id);
+					console.log(t);
+				}
+			}
 		}
 	}
 	function addsrc(str)
