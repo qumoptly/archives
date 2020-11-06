@@ -17,9 +17,9 @@
 			 width:98%;text-align:center;margin:8px;padding:8px;
 		}
 		.scale img{
-			background-size:contain|cover;
-			width: 60%;
-			height: auto;
+			background-size:contain;
+			width:60%;
+			height:auto;
 		}
 	</style>
 </head>
@@ -68,6 +68,7 @@
 				if (str == pdf.pdfdata[t].id){
 					console.log(pdf.pdfdata[t].id);
 					addsrc(pdf.pdfdata[t].id);
+					document.getElementById("title").innerHTML = pdf.pdfdata[t].title ;
 				}
 				else {
 					t++;
