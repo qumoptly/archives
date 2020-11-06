@@ -4,10 +4,20 @@ var json={
     "id":"41573"
     },
   "pdfdata":[
-    {"title":"The quest to slow ageing through drug discovery","id":"41573"},
-    {"title":"Can lab-grown brains become conscious?","id":"41586"},
-    {"title":"How to Create a Time Crystal ","id":"105171"},
-    {"title":"Hands-On Lab Skills Key for Quantum Jobs","id":"13163"}, 
+    {"title":"通过药物发现延缓衰老的探索","id":"41573"},
+    {"title":"实验室培养的大脑能有意识吗?","id":"41586"},
+    {"title":"如何创造一个时间晶体 ","id":"105171"},
+    {"title":"量子公司需要的实验室动手能力","id":"13163"},
+    {"title":"耶拿10.4kw相干合成超快光纤激光器","id":"3083"},
+    {"title":"中红外光参量啁啾脉冲放大器","id":"45961"},
+    {"title":"中红外光学参量啁啾脉冲放大器","id":"0999"},
+    {"title":"光参量放大器中非线性晶体的激光损伤","id":"0125"},
+    {"title":"放大器","id":"0862"},
+    {"title":"复合Nd:YAG晶体固体激光器热效应研究","id":"5078"},
+    {"title":"微通道冷却结构的数值研究","id":"0610"},
+    {"title":"中红外波段超快光纤激光器","id":"0509"},
+    {"title":"腔内和频单纵模黄光激光器","id":"0310"},
+    {"title":"100w皮秒板条激光放大器","id":"1104"},
     {"title":"浅谈固体锁模激光器的设计搭建和调整","id":"232115"},
     {"title":"飞秒激光系统","id":"307115"}
   ]
