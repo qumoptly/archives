@@ -50,10 +50,11 @@
 	var viewer = "https://qumoptly.gitee.io/pdfjs/es5/web/viewer.html?file=";
 	var data = "https://qumoptly.gitee.io/archives/sources/";
 	var t =0 ;
+	var tip = 0;
 	function next()
 	{
 		var pdf = eval(json);
-		if (t == -1){t = 0;}
+		if (t == -1){t = tip + 1;}
 		console.log(pdf.pdfdata[t]);
 		addsrc(pdf.pdfdata[t].id);
 		document.getElementById("title").innerHTML = pdf.pdfdata[t].title ;
@@ -71,6 +72,7 @@
 					document.getElementById("title").innerHTML = pdf.pdfdata[i].title ;
 					console.log(i);
 					t = -1;
+					tip = i;
 					break;
 				}
 			}
