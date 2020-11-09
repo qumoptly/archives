@@ -64,19 +64,21 @@
 		if (event.keyCode == 13)
 		{
 			var pdf = eval(json);
-			if (t < pdf.pdfdata.length ){
-				if (str == pdf.pdfdata[t].id){
-					console.log(pdf.pdfdata[t].id);
-					addsrc(pdf.pdfdata[t].id);
-					document.getElementById("title").innerHTML = pdf.pdfdata[t].title ;
+			for (var i = 0;i < pdf.pdfdata.length;i++){
+				if (str == pdf.pdfdata[i].id){
+					addsrc(pdf.pdfdata[i].id);
+					document.getElementById("title").innerHTML = pdf.pdfdata[i].title ;
+					console.log(i);
+					t = -1;
+					break;
 				}
-				else {
-					t++;
-					if(t >= pdf.pdfdata.length){t = 0;}
-					document.getElementById("inputmsg").innerHTML = "ID: "+pdf.pdfdata[t].id ;
-					console.log(pdf.pdfdata[t].id);
-					console.log(t);
-				}
+			}
+			if (t != -1){
+				if (t >= pdf.pdfdata.length){t = 0;}
+				document.getElementById("inputmsg").innerHTML = "ID: "+pdf.pdfdata[t].id ;
+				console.log(pdf.pdfdata[t].id);
+				console.log(t);
+				t++;
 			}
 		}
 	}
