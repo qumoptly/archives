@@ -53,6 +53,7 @@
 	function next()
 	{
 		var pdf = eval(json);
+		if (t == -1){t = 0;}
 		console.log(pdf.pdfdata[t]);
 		addsrc(pdf.pdfdata[t].id);
 		document.getElementById("title").innerHTML = pdf.pdfdata[t].title ;
