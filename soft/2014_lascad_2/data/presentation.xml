@@ -1,0 +1,936 @@
+<?xml version="1.0"?>
+<presentation title="2014激光器设计与LASCAD使用培训2" width="1000.0000000" height="750.0000000" thmbWidth="0.0000000" thmbHeight="0.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2007" type="compound" hasExternalAudio="0" uid="{FB85ECDD-51F8-463C-95B9-B5B7933D6871}">
+	<presenters>
+		<presenter name="Konrad Altmann" title="LASCAD（Laser Cavity Analysis and Design）产品创始人" email="" web="" phone="" photoAssetId="">
+			<bio/>
+		</presenter>
+		<presenter name="徐海" title="" email="" web="" phone="" photoAssetId="">
+			<bio>《人才计划与研究生教育》主讲人：
+中国科学院南海海洋研究所 人事教育处处长  徐海</bio>
+		</presenter>
+	</presenters>
+	<references/>
+	<soundAssets/>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets/>
+	<backgroundSound soundAssetId="" looping="0" volume="1.0000000"/>
+	<narration>
+		<videoTracks>
+			<videoTrack volume="1.0000000" src="ispring.resources_21639dc0.spr0_25493046" width="1000" height="562">
+				<startTimestamp slideIndex="0" stepIndex="0" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="0" stepIndex="0" timeOffset="15.0190000"/>
+			</videoTrack>
+			<videoTrack volume="1.0000000" src="ispring.resources_21639dc0.spr0_25496734" width="640" height="480">
+				<startTimestamp slideIndex="1" stepIndex="0" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="34" stepIndex="0" timeOffset="0.0000000"/>
+			</videoTrack>
+		</videoTracks>
+	</narration>
+	<settings>
+		<navigation>
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#253FBC</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>true</enabled>
+					<showLabels>true</showLabels>
+					<mode>presentationTimeline</mode>
+				</progressBar>
+				<navigationMode>bySteps</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>false</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="false"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="true"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>false</highlightViewedEntries>
+				<thumbnails>false</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>true</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>false</showPresenterInfo>
+				<showPresenterVideo>true</showPresenterVideo>
+				<visible>true</visible>
+				<tabsPanel>
+					<showOutline>true</showOutline>
+					<showNotes>false</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" syncWithVideoNarration="1" enableVideoControl="1" resumePresentationPlayback="prompt"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="片头" titleNormalized="片头" src="slide1.swf" size="138349" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="15.0180001"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="MaximizedVideo"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="1" title="Gaussian Beam Propagation Code" titleNormalized="gaussian beam propagation code" src="slide2.swf" size="14114" advanceOnTime="1" framesCount="5" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="38.4290003"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="15.7249998"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="0.5080000"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="17.6790003"/>
+				<step start="4" end="4" playTime="0.0010000" pauseTime="6.3119967"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Gaussian Beam Propagation Code The implementation of the Gaussian Code is based on A.E.Siegman, LASERS, University Science Books
+ABCD Matrices
+Beam Propagation through a series of parabolic optical elements can be described by the use of ABCD matrices
+Examples: Matrices for a mirror,lens, dielectric 
+ interface
+</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="2" title="ABCD Matrices" titleNormalized="abcd matrices" src="slide3.swf" size="13316" advanceOnTime="1" framesCount="4" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="13.2140002"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="0.2320000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="0.0780000"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="3.2959993"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Application on a ray defined by position and slope
+Curved dielectric interface
+The ABCD matrix algorithm can be applied on a propagating ray as well as on a propagating gaussian beam</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="3" title="ABCD Matrices" titleNormalized="abcd matrices" src="slide4.swf" size="1430" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="4.0230002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Siegman, LASERS, Chapt. 15, 
+Ray Optics and Ray Matrices</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="4" title="ABCD Matrices" titleNormalized="abcd matrices" src="slide5.swf" size="13315" advanceOnTime="1" framesCount="4" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0380000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="0.5970000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="0.1980000"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="25.6539992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Application on a ray defined by position and slope
+Curved dielectric interface
+The ABCD matrix algorithm can be applied on a propagating ray as well as on a propagating gaussian beam</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="5" title="ABCD Matrices" titleNormalized="abcd matrices" src="slide6.swf" size="1245" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0830000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="6" title="Gaussian Paraxial Wave Optics A. E. Siegman, LASERS" titleNormalized="gaussian paraxial wave optics a. e. siegman, lasers" src="slide7.swf" size="1970" advanceOnTime="1" framesCount="3" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.4600000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="0.0000000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="15.1279996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Gaussian Paraxial Wave Optics A. E. Siegman, LASERS
+The ABCD matrix can also be applied to transform the so called q Parameter of a Gaussian beam
+R radius of phase front curvature 
+w spot size defined as 1/e^2 radius of 
+ intensity distribution</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="7" title="ABCD Matrices" titleNormalized="abcd matrices" src="slide8.swf" size="13317" advanceOnTime="1" framesCount="4" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="3.8540000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="0.9510000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="13.9749998"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="9.3860002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Application on a ray defined by position and slope
+Curved dielectric interface
+The ABCD matrix algorithm can be applied on a propagating ray as well as on a propagating gaussian beam</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="8" title="ABCD Matrices" titleNormalized="abcd matrices" src="slide9.swf" size="1456" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="7.8450002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Siegman, LASERS, Chapt. 15, 
+Ray Optics and Ray Matrices</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="9" title="ABCD Matrices" titleNormalized="abcd matrices" src="slide10.swf" size="13320" advanceOnTime="1" framesCount="4" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="2.6049999"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="0.2050000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="0.5280000"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="8.9610005"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Application on a ray defined by position and slope
+Curved dielectric interface
+The ABCD matrix algorithm can be applied on a propagating ray as well as on a propagating gaussian beam</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="10" title="ABCD Matrices" titleNormalized="abcd matrices" src="slide11.swf" size="19603" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="5.2030000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Siegman, LASERS, Chapt. 15, 
+Ray Optics and Ray Matrices</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="11" title="ABCD Matrices" titleNormalized="abcd matrices" src="slide12.swf" size="1240" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="12.8910002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="12" title="Gaussian Paraxial Wave Optics A. E. Siegman, LASERS" titleNormalized="gaussian paraxial wave optics a. e. siegman, lasers" src="slide13.swf" size="1971" advanceOnTime="1" framesCount="3" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.7830000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="3.3080000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="0.7790002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Gaussian Paraxial Wave Optics A. E. Siegman, LASERS
+The ABCD matrix can also be applied to transform the so called q Parameter of a Gaussian beam
+R radius of phase front curvature 
+w spot size defined as 1/e^2 radius of 
+ intensity distribution</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="13" title="ABCD Matrices" titleNormalized="abcd matrices" src="slide14.swf" size="1241" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="5.0620002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="14" title="Gaussian Paraxial Wave Optics A. E. Siegman, LASERS" titleNormalized="gaussian paraxial wave optics a. e. siegman, lasers" src="slide15.swf" size="1973" advanceOnTime="1" framesCount="3" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.3150000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="30.0829996"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="10.7300009"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Gaussian Paraxial Wave Optics A. E. Siegman, LASERS
+The ABCD matrix can also be applied to transform the so called q Parameter of a Gaussian beam
+R radius of phase front curvature 
+w spot size defined as 1/e^2 radius of 
+ intensity distribution</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="15" title="The q parameter is given by" titleNormalized="the q parameter is given by" src="slide16.swf" size="16068" advanceOnTime="1" framesCount="4" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.8170000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="39.4560007"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="12.3910002"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="51.3879988"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Transformation of the q parameter by an ABCD matrix
+The q parameter is given by</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="16" title="Ray Matrix System in Cascade" titleNormalized="ray matrix system in cascade" src="slide17.swf" size="7718" advanceOnTime="1" framesCount="3" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="20.8569998"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="11.0960001"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="62.9700026"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Ray Matrix System in Cascade
+M1
+M2
+M3
+Total ray matrix</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="17" title="Ray Matrix System in Cascade" titleNormalized="ray matrix system in cascade" src="slide18.swf" size="53415" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="37.6799998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="18" title="Gaussian Duct A. E. Siegman, LASERS, Section 16.6" titleNormalized="gaussian duct a. e. siegman, lasers, section 16.6" src="slide19.swf" size="4102" advanceOnTime="1" framesCount="4" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="5.4130000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="1.5570000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="24.4210009"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="16.6149974"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Gaussian Duct A. E. Siegman, LASERS, Section 16.6
+A gaussian duct is a transversely inhomogeneous medium in which the refractive index and the absorption coefficient are defined by parabolic expressions 
+n(r)
+r</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="19" title="Gaussian Duct A. E. Siegman, LASERS, Section 16.6" titleNormalized="gaussian duct a. e. siegman, lasers, section 16.6" src="slide20.swf" size="11432" advanceOnTime="1" framesCount="5" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.2190000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="0.4200000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="34.7359995"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="9.0630001"/>
+				<step start="4" end="4" playTime="0.0010000" pauseTime="23.2500011"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>and
+n2 parabolic refractive index parameter
+α2 parabolic gain parameter
+
+Parabolic parameters n2 and α2 of a gaussian duct</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="20" title="ABCD Matrix of a Gaussian Duct" titleNormalized="abcd matrix of a gaussian duct" src="slide21.swf" size="8968" advanceOnTime="1" framesCount="4" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.5570000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="12.3449997"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="0.5820000"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="29.2130005"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>ABCD Matrix of a Gaussian Duct
+With the definition
+the ABCD matrix of a gaussian duct can be written in the form</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="21" title="ABCD Matrix of a Gaussian Duct" titleNormalized="abcd matrix of a gaussian duct" src="slide22.swf" size="178669" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="15.7090000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>In LASCAD the concept of the Gaussian duct is used to compute the thermal lensing effect of laser crystals. For this purpose the crystal is subdivided into short sections along the axis, and every section is considered to be a Gaussian duct.</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="22" title="Example" titleNormalized="example" src="slide23.swf" size="55878" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="4.6789998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>A parabolic fit is used to compute the parabolic parameters for every section.
+Example: Parabolic fit of the distribution of the refractive index</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="23" title="ABCD Matrix of a Gaussian Duct" titleNormalized="abcd matrix of a gaussian duct" src="slide24.swf" size="8971" advanceOnTime="1" framesCount="4" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0660000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="1.5120000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="0.2670000"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="0.1570000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>ABCD Matrix of a Gaussian Duct
+With the definition
+the ABCD matrix of a gaussian duct can be written in the form</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="24" title="Gaussian Duct A. E. Siegman, LASERS, Section 16.6" titleNormalized="gaussian duct a. e. siegman, lasers, section 16.6" src="slide25.swf" size="11433" advanceOnTime="1" framesCount="5" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="0.0000000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="0.0000000"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="0.0000000"/>
+				<step start="4" end="4" playTime="0.0010000" pauseTime="1.4050000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>and
+n2 parabolic refractive index parameter
+α2 parabolic gain parameter
+
+Parabolic parameters n2 and α2 of a gaussian duct</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="25" title="ABCD Matrix of a Gaussian Duct" titleNormalized="abcd matrix of a gaussian duct" src="slide26.swf" size="8969" advanceOnTime="1" framesCount="4" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.7500000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="0.4210000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="0.5140000"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="5.1700002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>ABCD Matrix of a Gaussian Duct
+With the definition
+the ABCD matrix of a gaussian duct can be written in the form</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="26" title="Gaussian Duct A. E. Siegman, LASERS, Section 16.6" titleNormalized="gaussian duct a. e. siegman, lasers, section 16.6" src="slide27.swf" size="11433" advanceOnTime="1" framesCount="5" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.4810000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="0.6250000"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="0.3230000"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="0.3570000"/>
+				<step start="4" end="4" playTime="0.0010000" pauseTime="4.5160002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>and
+n2 parabolic refractive index parameter
+α2 parabolic gain parameter
+
+Parabolic parameters n2 and α2 of a gaussian duct</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="27" title="Example" titleNormalized="example" src="slide28.swf" size="1729" advanceOnTime="1" framesCount="2" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="15.2999996"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="23.4989990"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>With the ABCD matrices of mirrors, lenses, internal dielectric interfaces, and Gaussian ducts most of the real cavities can be described.
+
+To compute the eigenmodes of a cavity the q parameter must be self-consistent, that means it must meet the round-trip condition.</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="28" title="Round-Trip Condition" titleNormalized="round-trip condition" src="slide29.swf" size="29139" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="99.5680002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Round-Trip Condition</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="29" title="Round-Trip Condition" titleNormalized="round-trip condition" src="slide30.swf" size="12917" advanceOnTime="1" framesCount="3" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.7270000"/>
+				<step start="1" end="1" playTime="0.0010000" pauseTime="25.6289992"/>
+				<step start="2" end="2" playTime="0.0010000" pauseTime="7.1719990"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>The round-trip condition can be used to derive a quadratic equation for the q parameter.
+All these computations are simple algebraic operations and therefore very fast.</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="30" title="Gaussian Optics of Misaligned Systems" titleNormalized="gaussian optics of misaligned systems" src="slide31.swf" size="1822" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="44.3329996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Gaussian Optics of Misaligned Systems
+With 2 x 2 ABCD Matrices only well aligned optical systems can be analyzed. However, for many purposes the analysis of small misalignment is interesting.
+This feature has not been implemented yet the LASCAD program, but it is under development, and will be available within the next months.</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="31" title="Gaussian Optics of Misaligned Systems" titleNormalized="gaussian optics of misaligned systems" src="slide32.swf" size="33709" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="7.7509999"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="32" title="Gaussian Optics of Misaligned Systems" titleNormalized="gaussian optics of misaligned systems" src="slide33.swf" size="11768" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="32.8909983"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>As shown in the textbook LASERS of Siegman the effect of misalignments can be described by the use of 3x3 matrices 
+Here E and F are derived from the parameters Δ1(2) describing the misalignmet of the element</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="33" title="Gaussian Optics of Misaligned Systems" titleNormalized="gaussian optics of misaligned systems" src="slide34.swf" size="11497" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="52.4470019"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>These 3x3 Matrices also can be cascaded to describe the propagation of a gaussian beam through any sequence of cascaded, and individually misaligned elements.
+ is the total ABCD Matrix
+ is the total misalignment vector which depends 
+ on the individual misalignments and the
+ individual ABCD matrices</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="34" title="片尾" titleNormalized="片尾" src="slide35.swf" size="450945" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="" presenterIndex="1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0090000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+	</slides>
+</presentation>
